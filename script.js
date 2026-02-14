@@ -44,15 +44,8 @@ function createLavender() {
 
 // create lavender every 2 seconds
 setInterval(createLavender, 2000);
-
-function startMusic() {
-  if (!musicStarted) {
-    music.play().catch(() => {});
-    musicStarted = true;
-  }
+function openSurprise() {
+  window.location.href = "surprise.html";
 }
 
-// Tap anywhere to start music
-document.addEventListener("click", startMusic);
-document.addEventListener("touchstart", startMusic);
 

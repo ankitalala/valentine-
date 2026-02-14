@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #f8cdda, #fbc2eb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.85);
+      padding: 30px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 400px;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #7a2c5c;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 2.5rem;
+      animation: pulse 1.5s infinite;
+      margin: 15px 0;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .back-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background: #7a2c5c;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Happy Valentine’s Day 💕</h1>
+    <div class="heart">💖</div>
+    <p>
+      You are my favorite feeling,<br>
+      I LOVE YOU BAGGO,<br>
+      When we first met i have never thought that you you whould be mine but today i came to know that you can only be mine 🌸<br><br>
+      Thank you for being with me.To Tolerate me even when i am not good to you<br>
+      On each valentine day i want to make this kind of website for you to show my love(just kidding i cant make)💫
+    </p>
+
+    <button class="back-btn" onclick="goBack()">← Back</button>
+  </div>
+  <div class="lavender-fall"></div>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+  
+
+</body>
+</html>
