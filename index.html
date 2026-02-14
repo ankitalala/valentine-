@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 🌿</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Video Background -->
+<video autoplay muted loop playsinline class="bg-video">
+  <source src="Snapchat-862823842.mp4" type="video/mp4">
+</video>
+
+<!-- Music -->
+<audio autoplay loop>
+  <source src="Dooron Dooron Unplugged Paresh Pahuja 128 Kbps.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Hidden Love Letter Button -->
+<button class="love-btn" onclick="openLetter()">💌</button>
+
+<!-- Love Letter Popup -->
+<div class="letter" id="letter">
+  <p>
+    Hey love 💜<br><br>
+    Every moment with you feels like a soft breeze,
+    calm, warm, and safe.  
+    This little world is my way of saying  
+    *you mean everything to me.*
+    <br><br>
+    Happy Valentine’s Day 🌿
+  </p>
+  <button onclick="closeLetter()">Close</button>
+</div>
+
+<!-- Ghibli Spirit -->
+<img src="spirit.png" class="spirit">
+
+<!-- Content -->
+<h1>For My Favorite Person ✨</h1>
+<p class="subtitle">Tap a memory and feel the moment</p>
+
+<!-- Floating Lavender -->
+<div class="lavender">
+  <img src="lavender.png">
+  <img src="flower.png">
+</div>
+
+<!-- Floating Photos -->
+<div class="floating-photos">
+  <img src="fav chips.jpg" onclick="showMemory('Our first photo together 💫')">
+  <img src="belong.jpg" onclick="showMemory('You Belong to me 💕')">
+  <img src="you are my happ.jpg" onclick="showMemory('You are my happiness 🌿')">
+  <img src="heart.jpg" onclick="showMemory('Forever my comfort 🫶')">
+  <img src="cartoon.jpg" onclick="showMemory('Us being us 💜')">
+  <img src="my cookie.jpg" onclick="showMemory('you are my cookie 🫶')">
+  <img src="my handsome.jpg" onclick="showMemory('my handsome man forever🫶')">
+  <img src="pikaboo.jpg" onclick="showMemory('still my baby 🫶')">
+  <img src="stick.jpg" onclick="showMemory('I am gonna irritate you forever 🫶')">
+</div>
+
+<!-- Memory Popup -->
+<div class="memory" id="memory"></div>
+<div class="lavender-fall"></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
